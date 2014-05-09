@@ -1,0 +1,2 @@
+javaee7-archetypes
+==================
