@@ -1,0 +1,26 @@
+== JavaEE Samples Archetype
+
+=== Usage
+
+[source, console]
+----
+mvn archetype:generate -DarchetypeGroupId=org.javaee-samples.archetype -DarchetypeArtifactId=javaee7-arquillian-archetype
+----
+
+=== Build / Install locally
+
+[source, console]
+----
+cd javaee7-archetype
+mvn clean install
+----
+
+=== How to update
+
+[soruce, console]
+----
+cd javaee7-sample
+mvn archetype:generate
+rm -rf ../javaee7-archetype/*
+cp -r target/generated-sources/archetype/* ../javaee7-archetype/
+----

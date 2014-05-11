@@ -5,7 +5,7 @@
    <groupId>${groupId}</groupId>
    <artifactId>${artifactId}</artifactId>
    <version>${version}</version>
-   <description>JavaEE 7 ArcheType Sample</description>
+   <description>JavaEE 7 Arquillian Archetype Sample</description>
    <packaging>war</packaging>
 
    <properties>
