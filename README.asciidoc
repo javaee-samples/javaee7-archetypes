@@ -4,7 +4,7 @@
 
 [source, console]
 ----
-mvn archetype:generate -DarchetypeGroupId=org.javaee-samples.archetype -DarchetypeArtifactId=javaee7-arquillian-archetype
+mvn archetype:generate -DarchetypeGroupId=org.javaee-samples -DarchetypeArtifactId=javaee7-arquillian-archetype -DarchetypeVersion=1.0.0-SNAPSHOT
 ----
 
 === Build / Install locally
