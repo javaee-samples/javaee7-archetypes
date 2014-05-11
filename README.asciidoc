@@ -20,7 +20,7 @@ mvn clean install
 [soruce, console]
 ----
 cd javaee7-sample
-mvn archetype:generate
+mvn archetype:create-from-project
 rm -rf ../javaee7-archetype/*
 cp -r target/generated-sources/archetype/* ../javaee7-archetype/
 ----
